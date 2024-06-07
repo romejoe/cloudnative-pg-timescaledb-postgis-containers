@@ -5,7 +5,7 @@ Operand images for CloudNativePG containing PostgreSQL with TimescaleDB and Post
 Immutable Application Containers for all available PostgreSQL versions (12 to 16) + TimescaleDB + PostGIS to be used as operands 
 with the [CloudNativePG operator](https://cloudnative-pg.io) for Kubernetes.
 
-These images are built on top of the [PostGIS image](https://hub.docker.com/r/postgis/postgis)
+These images are built on top of the [PostGIS image](https://hub.docker.com/r/imresamu/postgis)
 (Debian version), by adding the following software:
 
 - TimescaleDB

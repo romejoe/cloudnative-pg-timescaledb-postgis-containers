@@ -26,8 +26,8 @@ jobs:
             # pip-tools provides pip-compile used by update.sh
             pip3 install --upgrade pip-tools pip
             export PATH=$HOME/.local/bin:$PATH
-            echo "Updating TimescaleDB-PostGIS images"
-            ./TimescaleDB-PostGIS/update.sh
+            echo "Updating PostGIS images"
+            ./PostGIS/update.sh
       - name: Diff
         run: |
           git status
