@@ -17,11 +17,11 @@
 FROM imresamu/postgis:15-3.4
 
 # Do not split the description, otherwise we will see a blank space in the labels
-# LABEL name="PostgreSQL + TimescaleDB + PostGIS Container Images" \
-# 	version="${PG_VERSION}" \
-# 	release="53" \
-# 	summary="PostgreSQL + TimescaleDB + PostGIS Container images." \
-# 	description="This Docker image contains PostgreSQL, TimescaleDB, PostGIS and Barman Cloud based on Postgres 15-3.4."
+LABEL name="PostgreSQL + PostGIS Container Images" \
+	version="${PG_VERSION}" \
+	release="54" \
+	summary="PostgreSQL + PostGIS Container images." \
+	description="This Docker image contains PostgreSQL and PostGIS based on Postgres 15-3.4."
 
 # COPY requirements.txt /
 
